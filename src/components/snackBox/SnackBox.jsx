@@ -10,35 +10,31 @@ const SnackBox = ({ size, color, mood, className }) => (
     <svg
       width={size}
       height={size * 1.2}
-      viewBox="60 0 120 230"
+      viewBox="30 -20 130 230"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <g id="kawaii-snack-box">
-        <g
-          id="kawaii-snack-box__body"
-          fillRule="nonzero"
-          transform="translate(27.000000, 26.000000)"
-        >
+        <g id="kawaii-snack-box__body" fillRule="nonzero">
           <path
             d={paths.shape}
             id="kawaii-snack-box__shape"
             fill={color}
-            fill-rule="nonzero"
+            fillRule="nonzero"
           />
           <path
             d={paths.label}
             id="kawaii-snack-bag__label"
             stroke="#F7FEFF"
-            stroke-width="70"
-            stroke-linecap="square"
+            strokeWidth="70"
+            strokeLinecap="square"
           />
           <path
             d={paths.shadow}
             id="kawaii-snack-box__shadow"
             fill="#000000"
-            fill-rule="nonzero"
+            fillRule="nonzero"
             opacity="0.1"
           />
           <path
@@ -46,13 +42,13 @@ const SnackBox = ({ size, color, mood, className }) => (
             id="kawaii-snack-box__stripe"
             stroke="#979797"
             fill="#000000"
-            fill-rule="nonzero"
-            opacity="0.97312128"
+            fillRule="nonzero"
+            opacity="0.97"
           />
         </g>
         <Face
           mood={mood}
-          transform="translate(87 101)"
+          transform="translate(61 78)"
           uniqueId={getUniqueId()}
         />
       </g>
@@ -82,7 +78,7 @@ SnackBox.propTypes = {
 
 SnackBox.defaultProps = {
   size: 200,
-  mood: 'ko',
+  mood: 'lovestruck',
   color: '#277DBB'
 };
 

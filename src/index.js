@@ -10,6 +10,7 @@ import Cat from './components/cat/Cat';
 import File from './components/file/File';
 import Chocolate from './components/chocolate/Chocolate';
 import SnackBox from './components/snackBox/SnackBox';
+import SnackBag from './components/snackBag/SnackBag';
 
 export {
   Browser,
@@ -23,5 +24,6 @@ export {
   Backpack,
   File,
   Chocolate,
-  SnackBox
+  SnackBox,
+  SnackBag
 };
