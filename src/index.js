@@ -9,6 +9,7 @@ import Backpack from './components/backpack/Backpack';
 import Cat from './components/cat/Cat';
 import File from './components/file/File';
 import Chocolate from './components/chocolate/Chocolate';
+import SnackBox from './components/snackBox/SnackBox';
 
 export {
   Browser,
@@ -21,5 +22,6 @@ export {
   SpeechBubble,
   Backpack,
   File,
-  Chocolate
+  Chocolate,
+  SnackBox
 };
