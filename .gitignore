@@ -27,12 +27,12 @@ Temporary Items
 
 node_modules
 
-lib
+# lib
 .publish
 *.tgz
 
 _PROJECT
 npm-debug.log
 
-build/react-kawaii
+# build/react-kawaii
 yarn.lock
