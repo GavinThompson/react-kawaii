@@ -21,6 +21,8 @@ React Kawaii is a library of cute SVG illustrations (react components). Ideal if
 ### ~GT
 
 ## Differences between this and original package:
-Currently working a series of six or seven additional components for a project we're working on. Components mostly snack related (Chocolate Bar, Snack Bag, Snack Box). When completed I'll remove this project and cut a proper PR to the parent package.
+Currently working a series of six or seven additional components for a project we're working on. Components mostly snack related (Chocolate Bar, Snack Bag, Snack Box). When completed I'll remove this project and cut a proper PR to the parent package. Will be cutting a fresh fork with components only in coming weeks; have made a mess of the commits on this fork. First time linking a fork directly to a seperate project's `package.json` deps. "Always learning! 😂😭"
+
 
 In the mean time, check out the original package https://github.com/miukimiu/react-kawaii
+
