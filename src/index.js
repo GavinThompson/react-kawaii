@@ -11,6 +11,7 @@ import File from './components/file/File';
 import Chocolate from './components/chocolate/Chocolate';
 import SnackBox from './components/snackBox/SnackBox';
 import SnackBag from './components/snackBag/SnackBag';
+import MedicalHeart from './components/medicalHeart/MedicalHeart';
 
 export {
   Browser,
@@ -25,5 +26,6 @@ export {
   File,
   Chocolate,
   SnackBox,
-  SnackBag
+  SnackBag,
+  MedicalHeart
 };
